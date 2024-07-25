@@ -1,0 +1,33 @@
+scores for classification of different models:
+
+   1.Decision tree:
+      precision    recall  f1-score   support
+
+           B       1.00      1.00      1.00        25
+           M       1.00      1.00      1.00         6
+
+    accuracy                           1.00        31
+   macro avg       1.00      1.00      1.00        31
+weighted avg       1.00      1.00      1.00        31
+
+
+   2.Logistic regression:
+      precision    recall  f1-score   support
+
+           B       1.00      0.96      0.98        25
+           M       0.86      1.00      0.92         6
+
+    accuracy                           0.97        31
+   macro avg       0.93      0.98      0.95        31
+weighted avg       0.97      0.97      0.97        31
+
+
+  3.K neighbor classifier:
+             precision    recall  f1-score   support
+
+           B       1.00      0.96      0.98        25
+           M       0.86      1.00      0.92         6
+
+    accuracy                           0.97        31
+   macro avg       0.93      0.98      0.95        31
+weighted avg       0.97      0.97      0.97        31
